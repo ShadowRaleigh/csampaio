@@ -1,0 +1,7 @@
+services:
+  csampaio:
+    build: .
+    container_name: csampaio
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8081:80"
